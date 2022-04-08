@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- css principal -->
+    <link rel="stylesheet" href="style/main.css">
+
+    <title>Marvelflix</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo"><img class="logo" src="img/logo.png" alt=""></h2>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="series.html">Séries</a>
+                <a href="filmes.html">Filmes</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Filmes</h3>
+                <p class="descricao">Aqui estão disponíveis todos os filmes disponíveis em nossa plataforma. Aproveite!!</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="galeria-filmes">
+       <div class="linha">
+           <div class="capas" id="c2" onclick="filme2.abrirJanela()"></div>
+           <div class="capas" id="c3" onclick="filme3.abrirJanela()"></div>
+           <div class="capas" id="c4" onclick="filme4.abrirJanela()"></div>
+           <div class="capas" id="c5" onclick="filme5.abrirJanela()"></div>
+           <div class="capas" id="c6" onclick="filme6.abrirJanela()"></div>
+           <div class="capas" id="c9" onclick="filme9.abrirJanela()"></div>
+       </div>
+    </div>
+
+    <div class="popup" id="f2">
+        <div class="topo-janela"> 
+            <div class="infos">
+                <h3 class="titulo-janela">Homem-Aranha: Sem Volta Para Casa</h3>
+                <p class="descricao-janela">Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha.</p>
+                <button><i class="fa-solid fa-play"></i> Assista Agora</button>  
+            </div>
+            <div class="sair">
+                <button onclick="filme2.fecharJanela()" >
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="f3">
+        <div class="topo-janela"> 
+            <div class="infos">
+                <h3 class="titulo-janela">Eternos</h3>
+                <p class="descricao-janela">Após os eventos de "Vingadores: Ultimato", os Eternos, uma raça alienígena imortal criada pelos Celestiais que vivem em segredo na Terra há mais de 7000 anos, se reúnem após uma tragédia inesperada para proteger a humanidade de seus colegas malignos: os Deviantes.</p>
+                <button><i class="fa-solid fa-play"></i> Assista Agora</button>  
+            </div>
+            <div class="sair">
+                <button onclick="filme3.fecharJanela()" >
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="f4">
+        <div class="topo-janela"> 
+            <div class="infos">
+                <h3 class="titulo-janela">Capitã Marvel</h3>
+                <p class="descricao-janela">Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls. Ao tentar impedir uma invasão de larga escala na Terra, em 1995, ela tem memórias recorrentes de uma outra vida, como Carol Danvers, agente da Força Aérea norte-americana. Com a ajuda de Nick Fury, Capitã Marvel precisa descobrir os segredos de seu passado e pôr um fim ao conflito intergalático com os Skrulls.</p>
+                <button><i class="fa-solid fa-play"></i> Assista Agora</button>  
+            </div>
+            <div class="sair">
+                <button onclick="filme4.fecharJanela()" >
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="f5">
+        <div class="topo-janela"> 
+            <div class="infos">
+                <h3 class="titulo-janela">Vingadores Ultimato</h3>
+                <p class="descricao-janela">Após os eventos devastadores de "Vingadores: Guerra Infinita", o universo está em ruínas devido aos esforços do Titã Louco, Thanos. Com a ajuda de aliados remanescentes, os Vingadores devem se reunir mais uma vez a fim de desfazer as ações de Thanos e restaurar a ordem no universo de uma vez por todas, não importando as consequências.</p>
+                <button><i class="fa-solid fa-play"></i> Assista Agora</button>  
+            </div>
+            <div class="sair">
+                <button onclick="filme5.fecharJanela()" >
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="f6">
+        <div class="topo-janela"> 
+            <div class="infos">
+                <h3 class="titulo-janela">Viúva Negra</h3>
+                <p class="descricao-janela">Natasha Romanoff, também conhecida como Viúva Negra, confronta o lado mais sombrio de sua história quando surge uma perigosa conspiração ligada ao seu passado. Perseguida por uma força implacável disposta a tudo para destruí-la, Natasha precisa agora lidar com seu passado como espiã e com as relações que deixou para trás muito antes de se tornar uma Vingadora.</p>
+                <button><i class="fa-solid fa-play"></i> Assista Agora</button>  
+            </div>
+            <div class="sair">
+                <button onclick="filme6.fecharJanela()" >
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup" id="f9">
+        <div class="topo-janela"> 
+            <div class="infos">
+                <h3 class="titulo-janela">Pantera Negra</h3>
+                <p class="descricao-janela">O príncipe T'Challa retorna a Wakanda para ser coroado rei. Assumindo o manto de Pantera Negra, ele vai à caça de um vilão que roubou um precioso metal de seu país.</p>
+                <button><i class="fa-solid fa-play"></i> Assista Agora</button>  
+            </div>
+            <div class="sair">
+                <button onclick="filme9.fecharJanela()" >
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/63d21b185e.js" crossorigin="anonymous"></script>
+    <script src="js/setup.js"></script>
+</body>
+</html>

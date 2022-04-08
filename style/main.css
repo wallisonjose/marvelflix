@@ -50,6 +50,7 @@ header nav a:hover{
 
     height: 450px;
     background-size: cover;
+    background-position: center;
 
     display: flex;
     flex-direction: column;
@@ -114,12 +115,13 @@ header nav a:hover{
 /* Galeria Filmes */
 
 .galeria-filmes{
-    width: 98%;
+    width: 80%;
     margin: auto;
     margin-top: 15px;
 
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .galeria-filmes .linha{
@@ -188,6 +190,30 @@ opacity:1;
 
 #c6{
     background-image: url(../img/min06.jpg); 
+}
+
+#c7{
+    background-image: url(../img/min07.jpg); 
+}
+
+#c8{
+    background-image: url(../img/min08.jpg); 
+}
+
+#c9{
+    background-image: url(../img/min09.jpg); 
+}
+
+#c10{
+    background-image: url(../img/min10.jpg); 
+}
+
+#c11{
+    background-image: url(../img/min11.jpg); 
+}
+
+#c12{
+    background-image: url(../img/min12.jpg); 
 }
 
 /* Janelas Popup */
@@ -353,4 +379,32 @@ opacity:1;
     background-size: 100%;
 }
 
+#f7 .topo-janela{
+    background: linear-gradient(to bottom, transparent 0%, #141414 100%), url('../img/capa-janela/capa07.jpg'); 
+    background-size: 100%;
+}
 
+#f8 .topo-janela{
+    background: linear-gradient(to bottom, transparent 0%, #141414 100%), url('../img/capa-janela/capa08.jpg'); 
+    background-size: 100%;
+}
+
+#f9 .topo-janela{
+    background: linear-gradient(to bottom, transparent 0%, #141414 100%), url('../img/capa-janela/capa09.jpg'); 
+    background-size: 100%;
+}
+
+#f10 .topo-janela{
+    background: linear-gradient(to bottom, transparent 0%, #141414 100%), url('../img/capa-janela/capa10.jpg'); 
+    background-size: 100%;
+}
+
+#f11 .topo-janela{
+    background: linear-gradient(to bottom, transparent 0%, #141414 100%), url('../img/capa-janela/capa11.jpg'); 
+    background-size: 100%;
+}
+
+#f12 .topo-janela{
+    background: linear-gradient(to bottom, transparent 0%, #141414 100%), url('../img/capa-janela/capa12.jpg'); 
+    background-size: 100%;
+}
